@@ -32,37 +32,37 @@ function App() {
               <Routes>
                 <Route path="*" exact={true} element={<NotFound />} />
                 <Route
-                  path="adminpaneltest/keto"
+                  path="keto"
                   element={<KetoAdmin />}
                 ></Route>
                 <Route
-                  path="adminpaneltest/vegan"
+                  path="vegan"
                   element={<VeganAdmin />}
                 ></Route>
                 <Route
-                  path="adminpaneltest/chicken"
+                  path="chicken"
                   element={<ChickenAdmin />}
                 ></Route>
                 <Route
-                  path="adminpaneltest/snack"
+                  path="snack"
                   element={<SnackAdmin />}
                 ></Route>
                 <Route
-                  path="adminpaneltest/fruits"
+                  path="fruits"
                   element={<FruitsAdmin />}
                 ></Route>
                 <Route
-                  path="adminpaneltest/bake"
+                  path="bake"
                   element={<BakeAdmin />}
                 ></Route>
                 <Route
-                  path="adminpaneltest/meat"
+                  path="meat"
                   element={<MeatAdmin />}
                 ></Route>
                 {/* <Route path="/" element={<HomeAdmin />}></Route> */}
                 <Route path="/adminpaneltest" element={<HomeAdmin />}></Route>
                 <Route
-                  path="adminpaneltest/vegetables"
+                  path="vegetables"
                   element={<VegetablesAdmin />}
                 ></Route>
               </Routes>
