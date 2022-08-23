@@ -1,5 +1,5 @@
 {
-  "homepage": "https://muhab404.github.io/adminpaneltest",
+  "homepage": "https://muhab404.github.io/adminpanel",
   "proxy": "https://menotrix.pythonanywhere.com/meals",
   "name": "healty-food",
   "version": "0.1.0",
